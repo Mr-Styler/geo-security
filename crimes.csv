@@ -1,0 +1,324 @@
+Country,City,Street,Crime Type,Date,Latitude,Longitude
+Canada,Edmonton,Jules Cove Lodge,Assault,2023-04-25,72.6434,-130.8398
+Canada,Edmonton,Arlo Courts Village,Burglary,2023-05-06,15.0605,34.1333
+Canada,Hamilton,Trace Mountain Shoal,Burglary,2023-03-16,-1.3431,-151.4523
+Canada,Edmonton,Donavon Forest Islands,Fraud,2023-08-14,-68.9576,68.3531
+Canada,Kitchener,Tony Prairie Meadows,Fraud,2023-09-20,82.2897,160.9093
+Canada,Vancouver,Daugherty Garden Burg,Assault,2023-08-29,31.0933,-76.1688
+Canada,Montreal,Bednar Road Forges,Burglary,2023-09-08,84.9817,144.1322
+Canada,Quebec City,Else Centers Ferry,Burglary,2023-03-24,-55.4918,-164.7068
+Canada,Ottawa,Ashlynn Trafficway Lane,Theft,2023-10-27,87.9090,-48.2992
+Canada,Quebec City,Gibson Row Creek,Theft,2023-06-22,19.2153,38.2867
+Canada,Toronto,Kendrick Keys Views,Fraud,2023-09-19,-68.8008,-55.0798
+Canada,Calgary,Konopelski Dam Squares,Assault,2023-08-07,-33.7614,20.1989
+Canada,Kitchener,Huels Parkway Garden,Vandalism,2023-10-31,-35.2242,-109.7028
+Canada,Quebec City,McKenzie Way Heights,Burglary,2023-07-25,24.4805,16.6633
+Canada,Edmonton,Gottlieb Courts Valley,Theft,2023-06-11,55.8663,-108.8067
+Canada,Montreal,Elisabeth Island Mount,Vandalism,2023-11-30,-78.5813,99.0390
+Canada,Calgary,Trey Mountains Ville,Burglary,2023-12-18,-5.8159,-177.9944
+Canada,Edmonton,Jed Spring Trace,Fraud,2023-09-15,-63.3992,76.8934
+Canada,Calgary,Swaniawski Islands Station,Vandalism,2023-09-26,-71.5590,101.1184
+Canada,Montreal,Cruickshank Trace Freeway,Assault,2023-03-29,84.0847,68.6134
+Canada,Toronto,Meda Trail Street,Theft,2023-08-17,-74.1382,-39.8145
+Canada,Calgary,Gennaro Road Tunnel,Fraud,2023-09-15,70.1924,109.1174
+Canada,Ottawa,Vergie Pass Crescent,Theft,2023-10-13,61.0502,-88.4382
+Canada,Winnipeg,Hoppe Lakes Island,Fraud,2023-05-21,-84.0729,-95.9825
+Canada,Kitchener,Jeffry Skyway Springs,Assault,2023-11-15,-80.9284,-125.5897
+Canada,Ottawa,Terry Pike Club,Fraud,2023-12-24,59.2319,-104.1237
+Canada,Ottawa,Hoppe Mews Way,Theft,2023-09-21,51.2905,88.0457
+Canada,Hamilton,Gorczany Way Extension,Assault,2023-12-02,83.6153,-108.4794
+Canada,Montreal,Weissnat Key Trafficway,Vandalism,2023-04-17,5.5802,38.0122
+Canada,Winnipeg,Gerhold Meadows Mills,Assault,2023-06-22,-72.1417,-109.8334
+Canada,Toronto,Eleanore Unions Corners,Vandalism,2023-10-17,10.8426,115.2948
+Canada,Hamilton,Angelo Crescent Village,Vandalism,2023-02-25,-63.1914,-15.8318
+Canada,Vancouver,Evangeline Estates Fork,Fraud,2023-02-24,36.0866,113.5877
+Canada,Hamilton,Zulauf Hill Hills,Theft,2023-07-15,51.6845,89.7309
+Canada,Vancouver,Malinda Road Cove,Theft,2023-01-26,-12.1709,-40.0808
+Canada,Winnipeg,Anne Curve Cliff,Assault,2023-06-22,-35.9789,56.8898
+Canada,Ottawa,Beer Shores Forge,Assault,2023-07-12,49.7270,-134.3583
+Canada,Winnipeg,Gibson Pass Islands,Vandalism,2023-08-31,50.9915,134.6799
+Canada,Montreal,Kub Highway Canyon,Theft,2023-05-22,51.8562,-152.3088
+Canada,Winnipeg,Daniel Wells Spurs,Theft,2023-02-21,11.9519,145.5327
+Canada,Quebec City,Elbert Point Rest,Vandalism,2023-10-11,87.3995,-173.4748
+Canada,Vancouver,Toni Pine Streets,Theft,2023-08-06,18.9538,-9.4619
+Canada,Toronto,Scottie Lodge Estates,Theft,2023-03-19,-39.9924,155.0912
+Canada,Calgary,Heller Estates Circle,Vandalism,2023-04-21,-7.3433,17.0992
+Canada,Calgary,Pfeffer Freeway Run,Theft,2023-10-27,-48.0207,16.6982
+Canada,Ottawa,Barrows Lodge Overpass,Theft,2023-10-17,49.2772,79.0803
+Canada,Hamilton,Reichert Cove Ford,Fraud,2023-10-01,-74.3593,-54.9381
+Canada,Calgary,Koelpin Drive Ways,Burglary,2023-02-09,41.1190,-166.0454
+Canada,Montreal,Jaskolski Pine Station,Theft,2023-03-30,-19.9290,65.3573
+Canada,Edmonton,Abshire Views Crest,Burglary,2023-03-17,-66.7919,-103.6807
+Canada,Winnipeg,Schmidt Avenue Creek,Burglary,2023-06-03,-34.7111,163.4913
+Canada,Quebec City,Feeney Falls Lake,Vandalism,2023-05-07,88.9278,81.2580
+Canada,Hamilton,Bogan Greens Ville,Fraud,2023-08-04,-70.5263,-43.0582
+Canada,Edmonton,Halle Loop Mews,Burglary,2023-09-12,-70.2268,-37.5595
+Canada,Montreal,Freddy Spurs Crossing,Vandalism,2023-10-29,-69.8106,51.1027
+Canada,Edmonton,Connie Cape Ridges,Assault,2023-10-11,-65.9791,45.1993
+Canada,Kitchener,Emard Flat Groves,Vandalism,2023-03-15,-54.0677,-53.1022
+Canada,Vancouver,Stefan Lights Field,Fraud,2023-10-07,34.1336,-105.0202
+Canada,Vancouver,Kub Ranch Crossroad,Assault,2023-08-02,-52.4036,-174.4663
+Canada,Toronto,Cary Stream Locks,Assault,2023-05-03,16.0976,-149.6536
+Canada,Toronto,O'Conner Plain Highway,Fraud,2023-11-27,77.9811,-170.7865
+Canada,Edmonton,Drake Path Ville,Burglary,2023-02-20,-12.9616,-77.6164
+Canada,Hamilton,Jody Fork Mountains,Fraud,2023-01-22,21.1558,40.0464
+Canada,Winnipeg,Payton Spurs Locks,Vandalism,2023-11-09,-54.4104,116.4965
+Canada,Vancouver,Deckow Radial Shore,Fraud,2023-11-04,35.6100,-20.2244
+Canada,Winnipeg,Heather Hollow Squares,Vandalism,2023-12-30,-43.4506,120.2958
+Canada,Quebec City,Terrell Rapid Inlet,Assault,2023-01-28,84.1706,-86.1299
+Canada,Ottawa,Considine Mill Mills,Theft,2023-07-07,-56.2009,17.8235
+Canada,Winnipeg,Reymundo Circles Row,Burglary,2023-06-02,49.0244,49.3347
+Canada,Vancouver,Osinski Causeway Streets,Assault,2023-12-06,-60.2447,133.5774
+Canada,Quebec City,Kertzmann Flat Knoll,Assault,2023-01-27,-35.7616,-24.7712
+Canada,Ottawa,Carleton Mountains Overpass,Fraud,2023-11-02,84.0223,-155.7132
+Canada,Montreal,Cathy Isle Harbor,Fraud,2023-05-12,10.5876,103.3997
+Canada,Hamilton,Adelbert Gateway Divide,Fraud,2023-02-05,-89.5715,55.0099
+Canada,Ottawa,Tatum Curve Spring,Fraud,2023-10-07,85.0759,141.6993
+Canada,Calgary,Schiller Route Rapids,Theft,2023-03-06,83.7181,95.3444
+Canada,Toronto,Andres Loaf Freeway,Assault,2023-07-05,72.6268,-71.4389
+Canada,Edmonton,Loyal Avenue Park,Fraud,2023-12-24,20.8319,159.4007
+Canada,Quebec City,Kreiger Turnpike Highway,Assault,2023-09-30,-80.6689,-75.7243
+Canada,Calgary,Funk Trafficway Turnpike,Fraud,2023-01-21,33.0685,58.8969
+Canada,Toronto,Paucek Valleys Locks,Fraud,2023-01-23,-37.3357,107.6730
+Canada,Montreal,Rath Trail Tunnel,Burglary,2023-06-13,7.3548,-99.4930
+Canada,Ottawa,Hand Ports Pine,Burglary,2023-11-09,-73.8054,120.3718
+Canada,Quebec City,Legros Gateway Camp,Fraud,2023-06-08,-27.9230,95.0570
+Canada,Winnipeg,Ivy Corner Shores,Assault,2023-05-15,44.8019,-49.6877
+Canada,Vancouver,Carol Ford Harbors,Assault,2023-05-16,76.2355,64.9373
+Canada,Ottawa,Dewayne Orchard Mission,Fraud,2023-01-12,74.2638,-50.8291
+Canada,Calgary,Shanny Plaza Fort,Fraud,2023-07-24,83.4595,35.2823
+Canada,Winnipeg,Jalen Grove Path,Theft,2023-07-25,76.8265,148.0522
+Canada,Quebec City,Heidenreich Circles Fields,Vandalism,2023-01-21,84.9542,-160.0009
+Canada,Calgary,Nitzsche Forks Valley,Assault,2023-07-07,-42.5663,-170.7021
+Canada,Hamilton,Lilian Streets Hollow,Theft,2023-11-25,20.3919,-141.6292
+Canada,Vancouver,Streich Port Hills,Vandalism,2023-10-18,17.6644,9.7699
+Canada,Edmonton,Humberto Track Pass,Assault,2023-01-10,-40.2717,147.9262
+Canada,Kitchener,Beier Branch Parkway,Assault,2023-09-04,-30.8030,-96.9499
+Canada,Vancouver,Roberts Drives Lakes,Vandalism,2023-12-07,33.8738,135.5387
+Canada,Quebec City,Eloise Springs Tunnel,Burglary,2023-12-17,-4.6599,7.8888
+Canada,Toronto,Ferry Shores Locks,Vandalism,2023-12-14,-74.6745,-84.1539
+Canada,Vancouver,Ondricka Village Islands,Vandalism,2023-07-02,-70.8294,-99.7056
+Canada,Quebec City,Johns Valley Ports,Theft,2023-11-20,51.9272,-30.0827
+United Kingdom,Manchester,Bergnaum Branch Causeway,Fraud,2023-07-05,-39.5213,140.7402
+United Kingdom,Glasgow,Tatum Valleys Terrace,Assault,2023-02-28,42.9650,127.1462
+United Kingdom,Sheffield,Ratke Rue Hollow,Fraud,2023-09-30,69.3461,-66.2959
+United Kingdom,Bristol,Hadley Highway Pines,Burglary,2023-02-28,-2.3655,-63.1816
+United Kingdom,Manchester,Astrid Overpass Run,Theft,2023-01-12,-65.6070,-91.5475
+United Kingdom,Manchester,Jaquan Crossroad Ville,Vandalism,2023-12-20,-13.0967,-120.6537
+United Kingdom,Glasgow,Waters Flat Street,Vandalism,2023-06-22,-14.9569,-86.8506
+United Kingdom,Sheffield,Esteban Harbors Cove,Assault,2023-02-13,-52.2586,75.5812
+United Kingdom,Glasgow,Sabryna Station Summit,Vandalism,2023-05-28,-33.6823,171.7842
+United Kingdom,Manchester,Tremayne Grove Center,Theft,2023-04-06,-38.0392,69.5225
+United Kingdom,Liverpool,Kozey Cape Light,Fraud,2023-08-31,-38.6507,50.5958
+United Kingdom,Manchester,Emmett Coves Valleys,Burglary,2023-02-01,-79.9484,-43.4395
+United Kingdom,Birmingham,Maddison Knoll View,Burglary,2023-05-10,-0.9035,111.5363
+United Kingdom,Liverpool,Daisha Summit Via,Fraud,2023-03-25,23.5906,-14.3958
+United Kingdom,Nottingham,Quitzon Forest Lodge,Theft,2023-11-19,34.0744,161.2038
+United Kingdom,Manchester,Kane Wall Row,Theft,2023-07-11,-8.6803,90.1690
+United Kingdom,London,Ibrahim Stream Causeway,Theft,2023-03-10,32.6666,-142.1555
+United Kingdom,Sheffield,Layne Plaza Plain,Theft,2023-05-16,22.4419,-95.9005
+United Kingdom,Manchester,Beatty Haven Hill,Fraud,2023-02-01,14.6525,-82.4543
+United Kingdom,Sheffield,Murray Points Circles,Assault,2023-03-14,81.9414,171.2547
+United Kingdom,Nottingham,Graham Route Avenue,Assault,2023-06-09,-13.1549,23.4592
+United Kingdom,Nottingham,Borer Corner Loaf,Fraud,2023-06-08,26.9634,77.0863
+United Kingdom,Nottingham,Corkery Stravenue Divide,Burglary,2023-03-13,-64.0223,135.3770
+United Kingdom,Leeds,Borer Trail Glen,Theft,2023-06-19,-16.3129,164.6160
+United Kingdom,Leeds,Schultz Square Springs,Assault,2023-10-02,23.5226,-42.8480
+United Kingdom,Leeds,Homenick Course Fork,Burglary,2023-12-12,85.4783,168.1591
+United Kingdom,Newcastle,Johns Heights Vista,Fraud,2023-07-22,-15.0813,67.3147
+United Kingdom,Glasgow,Cartwright Green Locks,Fraud,2023-03-21,2.9070,-166.5914
+United Kingdom,Glasgow,Ullrich Row Manor,Fraud,2023-02-26,83.9331,163.4182
+United Kingdom,Bristol,Treutel Passage Ways,Vandalism,2023-11-03,-0.8449,-93.2977
+United Kingdom,Glasgow,Kessler Village Corners,Assault,2023-06-05,-44.1051,-147.8930
+United Kingdom,London,Richard Summit Passage,Burglary,2023-09-10,24.4704,48.2516
+United Kingdom,London,Blanda Spur Hollow,Theft,2023-07-24,-32.6296,82.9999
+United Kingdom,Sheffield,Jamey Meadow Loaf,Theft,2023-08-08,28.1422,-86.8168
+United Kingdom,Liverpool,Predovic Crossing Knolls,Burglary,2023-10-06,-40.4170,123.3331
+United Kingdom,Birmingham,Liana Court Garden,Theft,2023-01-12,-55.3354,132.5947
+United Kingdom,Leeds,Wiegand Land Roads,Fraud,2023-05-24,48.3949,134.9623
+United Kingdom,Newcastle,Wuckert Islands Forks,Burglary,2023-01-26,-79.5814,-91.3036
+United Kingdom,Leeds,Simonis Glen Spring,Vandalism,2023-12-28,-7.3832,128.2198
+United Kingdom,London,Sherman Canyon Knolls,Burglary,2023-05-12,-78.1823,-161.3176
+United Kingdom,Leeds,Osinski Terrace Overpass,Theft,2023-10-11,-85.7074,-16.9849
+United Kingdom,Liverpool,Nigel Wall Freeway,Vandalism,2023-06-01,45.9048,-170.9254
+United Kingdom,Liverpool,Josue Gardens Court,Vandalism,2023-06-03,10.3641,-9.4421
+United Kingdom,London,Hellen Terrace Overpass,Burglary,2023-01-28,-89.9971,59.4261
+United Kingdom,Sheffield,Serena Point Corners,Vandalism,2023-06-12,-67.8761,-120.8554
+United Kingdom,Newcastle,Mueller Estate River,Fraud,2023-10-08,-1.4727,-89.7669
+United Kingdom,Nottingham,Bauch Walk Cliffs,Theft,2023-01-18,-65.7110,136.5524
+United Kingdom,London,Smith Mountains Mission,Theft,2023-12-09,-87.4481,-144.7843
+United Kingdom,Sheffield,Ivah River Shoal,Fraud,2023-04-11,5.7079,7.7706
+United Kingdom,Bristol,Langosh Key Isle,Vandalism,2023-11-02,-6.5220,176.9307
+United Kingdom,Manchester,Joany Mall Gateway,Assault,2023-02-22,-21.1508,85.9973
+United Kingdom,Leeds,Giles Path Harbor,Theft,2023-03-25,40.8344,66.4085
+United Kingdom,Glasgow,Bahringer Haven Squares,Assault,2023-10-07,-86.2929,-98.9266
+United Kingdom,Bristol,Johnston Field Meadows,Burglary,2023-10-03,3.3919,94.3382
+United Kingdom,Manchester,Barrows Well Dale,Burglary,2023-04-27,49.1670,1.6035
+United Kingdom,Leeds,Marielle Light Groves,Fraud,2023-08-26,1.7997,50.4307
+United Kingdom,Liverpool,Ike Haven Groves,Theft,2023-08-18,74.2650,88.9575
+United Kingdom,Sheffield,Vidal Plain Heights,Vandalism,2023-04-29,-51.4734,-113.9090
+United Kingdom,Manchester,Frami Light Harbor,Fraud,2023-06-10,69.1849,-67.6975
+United Kingdom,Sheffield,Chad Ranch Bypass,Vandalism,2023-02-07,-22.6148,108.9937
+United Kingdom,Leeds,Constantin Stream Ports,Theft,2023-01-15,-73.3216,-47.6336
+United Kingdom,Sheffield,Easton Crossroad Cliffs,Vandalism,2023-10-14,19.3871,-47.0714
+United Kingdom,Leeds,Alejandra River Manor,Burglary,2023-01-06,-27.4850,29.6761
+United Kingdom,Newcastle,Fahey Views Drive,Theft,2023-09-17,-75.0131,36.1204
+United Kingdom,London,Doyle Center Mount,Assault,2023-09-14,-32.0907,125.4782
+United Kingdom,Manchester,Crystel Hill Isle,Fraud,2023-10-18,-56.2185,107.7287
+United Kingdom,Leeds,Konopelski Stream Rue,Vandalism,2023-04-12,12.9131,-164.0175
+United Kingdom,Manchester,Cronin Mews Stream,Assault,2023-09-14,-86.1433,144.5388
+United Kingdom,Bristol,Zieme Camp Meadow,Assault,2023-07-02,74.4411,-170.2875
+United Kingdom,Leeds,Lester Valley Roads,Theft,2023-10-13,25.4738,20.0492
+United Kingdom,Bristol,Micah Corners Expressway,Assault,2023-12-08,51.2817,-10.6471
+United Kingdom,Glasgow,Leannon Harbors Ferry,Fraud,2023-06-01,85.7293,-0.2090
+United Kingdom,Nottingham,Ewald Expressway Mission,Theft,2023-09-21,40.0373,148.5570
+United Kingdom,Manchester,Bechtelar Mission Ridge,Theft,2023-06-14,82.9867,114.9449
+United Kingdom,Glasgow,Mayert Avenue Mountains,Assault,2023-06-25,-6.7499,-40.0775
+United Kingdom,Glasgow,Aliza Port Walk,Fraud,2023-08-10,-70.1610,-12.4006
+United Kingdom,Manchester,Cruickshank Hollow Rapid,Theft,2023-05-31,71.6607,-34.9649
+United Kingdom,Sheffield,Hal Road Mall,Theft,2023-08-23,79.0248,-131.0727
+United Kingdom,Nottingham,Prohaska Stravenue Harbors,Vandalism,2023-04-08,29.6473,-82.2963
+United Kingdom,Leeds,Tracy Coves Cape,Vandalism,2023-03-16,65.9050,-76.2004
+United Kingdom,Newcastle,Green Ramp Loaf,Assault,2023-08-19,43.2240,-51.7386
+United Kingdom,Glasgow,Uriel Stream Valleys,Assault,2023-07-29,-22.4198,-12.3310
+United Kingdom,Glasgow,Kaia Valley Spur,Vandalism,2023-06-13,-3.5206,27.8077
+United Kingdom,Bristol,Schaden Road Islands,Theft,2023-08-08,89.5398,-17.7965
+United Kingdom,Manchester,Kirsten Court Grove,Burglary,2023-08-24,11.0731,144.6265
+United Kingdom,Newcastle,Darrell Drive Rest,Fraud,2023-12-06,-67.5495,-63.2026
+United Kingdom,Manchester,Orpha Vista Port,Fraud,2023-11-02,21.3224,-108.7900
+United Kingdom,Liverpool,Cary Fields Drive,Burglary,2023-11-28,-40.1450,-60.5925
+United Kingdom,Newcastle,Petra Ridges Overpass,Assault,2023-10-04,-82.1111,151.2623
+United Kingdom,Liverpool,Cecelia Vista Glens,Fraud,2023-12-07,-22.2124,-23.9996
+United Kingdom,Newcastle,Stroman Pike Roads,Burglary,2023-05-03,-71.8036,37.5169
+United Kingdom,Glasgow,Moen Parks Harbors,Fraud,2023-03-08,25.7295,-65.0915
+United Kingdom,Birmingham,Jake Village Walks,Theft,2023-07-20,33.3490,-17.9622
+United Kingdom,London,Bernhard Dale Common,Theft,2023-10-28,-61.9796,91.5383
+United Kingdom,Glasgow,Dallin Fords Circle,Fraud,2023-07-10,-83.9447,-109.2956
+United Kingdom,Liverpool,Terry Roads Skyway,Vandalism,2023-08-23,-47.7556,64.7237
+United Kingdom,Newcastle,Heaney Village Fork,Vandalism,2023-08-30,2.7266,179.0337
+United Kingdom,Birmingham,Ivy Vista Highway,Assault,2023-04-07,80.5489,123.8977
+United Kingdom,Birmingham,Rosenbaum Ports Ridge,Theft,2023-01-31,42.7068,144.6698
+United Kingdom,London,Otha Extension Turnpike,Assault,2023-05-11,39.6202,70.3270
+United States,Miami,Ebert Row Gateway,Burglary,2023-06-27,-58.9687,10.3222
+United States,Dallas,Dana Harbor Crest,Fraud,2023-11-06,26.1322,-107.7764
+United States,Los Angeles,Sophie Villages Plaza,Fraud,2023-02-25,-15.7275,-164.0216
+United States,San Diego,McLaughlin Burg Underpass,Fraud,2023-10-23,-22.8328,-98.7141
+United States,Chicago,Bettye Ways Causeway,Vandalism,2023-05-13,-43.5731,-93.7838
+United States,Austin,Purdy Court Stravenue,Burglary,2023-01-22,-54.2097,99.4637
+United States,Miami,Boyer Junction Stream,Vandalism,2023-05-08,-39.9416,40.5599
+United States,Dallas,Angelita Port Lane,Assault,2023-05-07,-65.0969,-104.0324
+United States,Austin,Bernie Village Road,Burglary,2023-05-28,56.0322,56.0265
+United States,New York City,Garfield Garden Crossroad,Burglary,2023-11-25,66.9874,-178.0997
+United States,Los Angeles,Ted Port Burgs,Assault,2023-05-03,23.8019,141.9554
+United States,San Diego,Hoeger Ridge Dale,Fraud,2023-06-22,-50.9493,-11.0444
+United States,Los Angeles,Dominique Centers Island,Theft,2023-04-30,58.4232,-82.3542
+United States,New York City,Bergnaum Throughway Island,Burglary,2023-09-09,36.7033,83.1291
+United States,Los Angeles,Kyleigh Track Station,Vandalism,2023-10-25,-58.0414,101.2589
+United States,San Antonio,Colt Station Square,Fraud,2023-11-21,-39.6512,174.6246
+United States,Chicago,Labadie Gateway Cliffs,Assault,2023-01-28,24.2698,129.4712
+United States,Philadelphia,Pascale Key Walks,Fraud,2023-07-07,24.8381,-21.5181
+United States,Philadelphia,Hassie Crossroad Spring,Assault,2023-07-13,67.6250,-95.0657
+United States,Los Angeles,Bergstrom Park Port,Assault,2023-09-17,45.7725,-95.9630
+United States,Philadelphia,Bernadine Fall Isle,Assault,2023-05-08,-28.4409,150.6441
+United States,Dallas,Edgardo Well Trace,Fraud,2023-11-16,80.7764,124.0348
+United States,San Antonio,Hills Mountain Shoal,Vandalism,2023-07-15,-89.9002,-173.7399
+United States,New York City,Dereck Skyway Island,Fraud,2023-07-26,-60.0718,151.8207
+United States,Philadelphia,Kulas Square Forge,Assault,2023-03-29,-51.0012,66.1673
+United States,Miami,Kessler Squares Junctions,Burglary,2023-02-15,6.0396,51.2187
+United States,Philadelphia,Ethelyn Crossing Landing,Vandalism,2023-04-17,-79.2251,-124.3228
+United States,San Antonio,Schuster Ports Drive,Burglary,2023-07-30,46.4514,-116.1751
+United States,San Antonio,Hickle Crossing Crescent,Fraud,2023-04-07,41.1360,-20.8011
+United States,Los Angeles,Baumbach Fork Square,Burglary,2023-02-04,-16.5413,82.8206
+United States,Miami,Lebsack Plains Plaza,Assault,2023-03-22,62.2001,-111.8984
+United States,Miami,Towne Wall Oval,Assault,2023-10-17,31.7443,21.6334
+United States,Dallas,Stanford Village Glen,Assault,2023-07-20,-14.4270,18.9383
+United States,San Antonio,Kathryne Hollow River,Vandalism,2023-11-11,58.1659,7.3790
+United States,San Antonio,Ernie Gardens Corners,Burglary,2023-12-25,89.5059,-151.2018
+United States,New York City,Tess Unions Avenue,Theft,2023-04-29,-39.6150,-7.3600
+United States,Los Angeles,Hammes Streets Garden,Fraud,2023-03-22,-45.8985,-177.3356
+United States,Philadelphia,Schneider Center Islands,Vandalism,2023-07-29,21.1576,-146.4418
+United States,New York City,Bartoletti Curve Circle,Theft,2023-05-23,-58.7977,-176.6117
+United States,Dallas,Danyka Street Lane,Vandalism,2023-07-01,-59.4707,21.6920
+United States,Chicago,Streich Courts Mountain,Burglary,2023-06-19,-21.9516,108.9295
+United States,Miami,Nova Lodge Inlet,Vandalism,2023-03-13,26.7688,-116.6968
+United States,New York City,Erick Oval Route,Assault,2023-03-09,44.5395,-81.4983
+United States,Miami,Torp Hills Prairie,Assault,2023-04-27,77.7959,-37.3284
+United States,Dallas,Towne Ville Land,Assault,2023-12-20,66.9294,-119.3204
+United States,Dallas,Kautzer Fields Court,Theft,2023-10-20,-17.1633,-171.0708
+United States,Los Angeles,Maggio Walk Forges,Vandalism,2023-03-28,-86.9259,-94.4738
+United States,Chicago,Mathew Lake Mountain,Burglary,2023-03-19,14.3684,-173.3705
+United States,Chicago,Danyka Stream Place,Vandalism,2023-04-19,0.5551,167.3196
+United States,Los Angeles,Casimer Burg Mission,Assault,2023-03-18,-71.2481,-138.9421
+United States,Miami,Tiana Valley Fields,Vandalism,2023-11-05,-85.9268,-149.5453
+United States,Dallas,Gislason Forks Circles,Fraud,2023-06-06,-68.8317,-123.4183
+United States,San Antonio,Upton Curve Rapid,Theft,2023-10-12,-83.6712,72.8440
+United States,New York City,Pacocha Way Lake,Theft,2023-01-24,48.6183,-57.1320
+United States,Austin,Ivah Road Walk,Fraud,2023-01-05,7.0804,150.8223
+United States,Miami,Malachi Plains Well,Vandalism,2023-04-28,-28.6200,-176.7783
+United States,Los Angeles,Greta Land Springs,Fraud,2023-01-16,-26.3148,-77.9606
+United States,Houston,Orrin Burg Keys,Vandalism,2023-07-17,-49.3319,162.0507
+United States,Dallas,Stroman Circles Loaf,Theft,2023-11-02,25.6137,-56.2447
+United States,San Diego,Rohan Creek Cove,Assault,2023-06-08,85.3624,-46.3046
+United States,San Antonio,Ondricka Ramp Place,Vandalism,2023-01-23,54.5452,137.8112
+United States,Dallas,Jacobson Dale Hollow,Fraud,2023-02-10,-39.8220,-46.5920
+United States,Chicago,Johnston Light Forest,Assault,2023-06-13,-59.0905,121.6243
+United States,Los Angeles,Obie Street Rapids,Vandalism,2023-05-18,-29.9988,71.1164
+United States,Austin,Trever Forks Passage,Vandalism,2023-01-11,-10.7816,72.5675
+United States,Chicago,Marie Pass Circles,Theft,2023-12-15,-7.5003,-0.5373
+United States,New York City,Hirthe Bypass Isle,Vandalism,2023-09-27,28.2859,-153.2552
+United States,Miami,Welch Ways Cove,Fraud,2023-08-04,-5.3050,54.3891
+United States,New York City,Abigayle Loaf Parkways,Vandalism,2023-11-04,-26.9796,178.2166
+United States,San Antonio,Bartell Freeway Trace,Theft,2023-03-20,30.8394,165.0112
+United States,Los Angeles,Samanta Dam Turnpike,Burglary,2023-04-18,-45.7006,-168.3606
+United States,Miami,Wava Via Courts,Fraud,2023-08-19,-81.8168,156.7877
+United States,Houston,Donnelly Villages Gateway,Fraud,2023-01-09,-52.3939,-30.2493
+United States,New York City,Hessel Crossroad Harbor,Assault,2023-04-27,52.1954,153.0508
+United States,San Antonio,Augusta Burgs Bypass,Assault,2023-12-06,6.0170,137.6664
+United States,Chicago,Beer Rest Crest,Assault,2023-10-28,52.1548,-54.5998
+United States,New York City,Hank Groves Fork,Assault,2023-02-10,46.8291,-63.7941
+United States,Los Angeles,Barton Extension Road,Theft,2023-01-18,43.3789,151.5696
+United States,San Antonio,Francisco Circles Extensions,Fraud,2023-01-25,-45.6069,138.8733
+United States,Dallas,Nathanael Shoal Union,Fraud,2023-10-27,79.3516,62.4244
+United States,Philadelphia,Haag Loaf Mountain,Fraud,2023-12-04,-41.8321,-127.6574
+United States,Philadelphia,Dibbert Course Hill,Assault,2023-06-09,-48.0413,153.5710
+United States,New York City,Prohaska Forge Via,Fraud,2023-07-20,76.1713,153.9817
+United States,New York City,Cummings Fork Avenue,Fraud,2023-06-22,40.8389,157.5119
+United States,San Antonio,Conner Heights Summit,Vandalism,2023-04-28,30.0996,164.7303
+United States,Chicago,Hammes Course Overpass,Vandalism,2023-11-17,-47.7634,-132.0538
+United States,Dallas,Pouros Pass Pine,Fraud,2023-07-02,44.7659,175.3264
+United States,Los Angeles,Greyson Glens Unions,Theft,2023-05-26,-19.7407,34.5668
+United States,Los Angeles,Amaya Fields Plains,Assault,2023-07-15,-41.9598,179.4555
+United States,San Antonio,Emmalee Extensions Club,Vandalism,2023-03-08,-38.3768,-111.7961
+United States,Chicago,Aletha Summit Ridges,Burglary,2023-01-27,79.2085,123.7373
+United States,New York City,Carmine Orchard Motorway,Theft,2023-02-06,55.6139,153.9045
+United States,San Antonio,Sebastian Mountain Mall,Assault,2023-12-28,71.8869,-42.8696
+United States,Philadelphia,Beer Squares Mission,Vandalism,2023-12-20,6.0311,169.0938
+United States,Chicago,Halvorson Lake Oval,Assault,2023-09-24,82.0613,140.1141
+United States,Philadelphia,Schaefer Ferry Parkway,Burglary,2023-04-15,86.3428,122.2512
+United States,New York City,Chauncey Corner Trace,Vandalism,2023-05-14,-15.8533,-91.6182
+United States,San Antonio,Jarrell Knoll Crest,Burglary,2023-11-12,-22.2396,161.4232
+United States,Los Angeles,Metz Shoals Mountains,Assault,2023-06-14,24.0214,-159.4451
+United States,San Antonio,Stehr Crossroad Villages,Burglary,2023-04-13,-38.6850,144.0396
+Nigeria,Port Harcourt,Albert Road,Robbery,2023-05-12,4.8143,7.0257
+Nigeria,Port Harcourt,Trans Amadi,Assault,2023-06-01,4.7991,7.0122
+Nigeria,Port Harcourt,Reclamation Road,Burglary,2023-06-15,4.8141,7.0150
+Nigeria,Port Harcourt,East-West Road,Theft,2023-07-20,4.7904,7.0283
+Nigeria,Port Harcourt,Port Harcourt Town,Drug Offense,2023-07-30,4.8012,7.0278
+Nigeria,Port Harcourt,Abacha Road,Domestic Violence,2023-08-10,4.7900,7.0165
+Nigeria,Port Harcourt,Ikwerre Road,Fraud,2023-08-25,4.7950,7.0199
+Nigeria,Port Harcourt,Aba Road,Assault,2023-09-05,4.8302,7.0338
+Nigeria,Port Harcourt,Nkpolu Oroworukwo,Robbery,2023-09-15,4.7905,7.0150
+Nigeria,Port Harcourt,Choba,Theft,2023-09-30,4.8325,7.0143
+Nigeria,Port Harcourt,Diobu,Assault,2023-10-05,4.7793,7.0184
+Nigeria,Port Harcourt,Rumuola,Drug Offense,2023-10-12,4.8165,7.0230
+Nigeria,Port Harcourt,Diobu,Robbery,2024-10-05,4.7763,6.9921
+Nigeria,Port Harcourt,Diobu,Assault,2024-10-10,4.7763,6.9921
+Nigeria,Port Harcourt,Mile 3,Theft,2024-10-15,4.7791,6.9915
+Nigeria,Port Harcourt,Mile 3,Drug Offense,2024-10-20,4.7785,6.9925
+Nigeria,Port Harcourt,Mile 3,Car Theft,2024-10-25,4.7759,6.9912
+Nigeria,Lagos,Ajah,Robbery,2024-10-05,6.431,3.416
+Nigeria,Lagos,Ajah,Assault,2024-10-08,6.4311,3.417
+Nigeria,Lagos,Ajah,Theft,2024-10-10,6.4305,3.4155
+Nigeria,Lagos,Ajah,Drug Offense,2024-10-12,6.4308,3.4163
+Nigeria,Lagos,Ajah,Car Theft,2024-10-15,6.4302,3.4168
+Nigeria,Lagos,Ajah,Harassment,2024-10-18,6.4307,3.4158

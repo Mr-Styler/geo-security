@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Assessment Map</title>
+
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Add custom styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+            margin: 0;
+        }
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        /* Add responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Safety Assessment Map</h1>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        // Initialize the map with default center and zoom
+        const map = L.map('map').setView([40.7128, -74.0060], 13); // Default to New York City
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Function to assess safety by sending latitude and longitude to the server
+        async function assessSafety(lat, lon) {
+            const response = await fetch('/assess', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ lat, lon })
+            });
+            return await response.json();
+        }
+
+        // Add marker and update the map based on safety score and response data
+        async function updateMap(lat, lon) {
+            const result = await assessSafety(lat, lon);
+            console.log(result);
+
+            const { safetyScore, weather, crimeData } = result;
+
+            // Set marker color based on safety score
+            let color = 'green';
+            if (safetyScore < 50) {
+                color = 'red';
+            } else if (safetyScore < 80) {
+                color = 'orange';
+            }
+
+            // Add a circle marker for the location with the calculated color
+            const marker = L.circle([lat, lon], {
+                color: color,
+                fillColor: color,
+                fillOpacity: 0.5,
+                radius: 100
+            }).addTo(map);
+
+            // Bind a popup showing safety score, weather, and nearby crimes
+            marker.bindPopup(`Safety Score: ${safetyScore}<br>Weather: ${weather.weather[0].main}<br>Crimes nearby: ${crimeData.length}`);
+        }
+
+        // Get user's location using the Geolocation API
+        function getUserLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition((position) => {
+                    const userLat = position.coords.latitude;
+                    const userLon = position.coords.longitude;
+
+                    // Update the map with the user's location
+                    updateMap(userLat, userLon);
+
+                    // Set the map view to the user's location
+                    map.setView([userLat, userLon], 14);
+
+                    // Add a marker at the user's location
+                    const userMarker = L.marker([userLat, userLon]).addTo(map);
+                    userMarker.bindPopup("You are here!").openPopup();
+                }, () => {
+                    alert("Unable to retrieve your location.");
+                });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        // Get the user's location and update the map
+        getUserLocation();
+    </script>
+</body>
+</html>

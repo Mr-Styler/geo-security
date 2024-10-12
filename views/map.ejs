@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Assessment Map</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GeoSecurity Map</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h1 class="text-center">Safety Assessment Map</h1>
+        <form id="locationForm" class="mb-3">
+            <div class="form-group">
+                <label for="locationInput">Enter Location Name or Coordinates (lat, lon):</label>
+                <input type="text" id="locationInput" class="form-control" placeholder="e.g. Portharcourt or 6.431, 3.416" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([6.431, 3.416], 13); // Default to Portharcourt
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        let currentMarker;
+
+        async function getCoordinates(location) {
+            // Check if location is in the format "lat, lon"
+            if (location.includes(',')) {
+                const coords = location.split(',').map(coord => parseFloat(coord.trim()));
+                return { lat: coords[0], lon: coords[1] };
+            } else {
+                // Fetch coordinates for the location name using Nominatim
+                const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(location)}`);
+                const data = await response.json();
+                if (data.length > 0) {
+                    return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
+                } else {
+                    alert('Location not found');
+                    throw new Error('Location not found');
+                }
+            }
+        }
+
+        // Function to assess safety using your API
+        async function assessSafety(lat, lon) {
+            const response = await fetch('/assess', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ lat, lon })
+            });
+            return await response.json();
+        }
+
+        // Update the map based on user input
+        async function updateMap(location) {
+            try {
+                const { lat, lon } = await getCoordinates(location);
+                
+                // Assess safety
+                const result = await assessSafety(lat, lon);
+                console.log(result);
+
+                const { safetyScore, weather, crimeData, trafficData } = result;
+
+                // Color code based on safety score
+                let color = 'green';
+                if (safetyScore < 50) {
+                    color = 'red';
+                } else if (safetyScore < 80) {
+                    color = 'orange';
+                }
+
+                // Update map view
+                map.setView([lat, lon], 14);
+
+                // Remove existing marker
+                if (currentMarker) {
+                    currentMarker.remove();
+                }
+
+                // Add marker for the current location
+                currentMarker = L.circle([lat, lon], {
+                    color: color,
+                    fillColor: color,
+                    fillOpacity: 0.5,
+                    radius: 100
+                }).addTo(map).bindPopup(`Safety Score: ${safetyScore}<br>Weather: ${weather[0].main}<br>Crimes nearby: ${crimeData.length}<br>Traffic: ${trafficData.trafficStatus}`);
+
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // Handle form submission
+        document.getElementById('locationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const locationInput = document.getElementById('locationInput').value;
+            updateMap(locationInput);
+        });
+
+        // Set initial view for the map
+        map.on('load', () => {
+            updateMap('6.431, 3.416'); // Initial coordinates (Portharcourt)
+        });
+    </script>
+</body>
+</html>

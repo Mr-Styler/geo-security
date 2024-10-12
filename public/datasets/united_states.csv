@@ -1,0 +1,101 @@
+Country,City,Street,Crime Type,Date,Latitude,Longitude
+United States,Miami,Ebert Row Gateway,Burglary,2023-06-27,-58.9687,10.3222
+United States,Dallas,Dana Harbor Crest,Fraud,2023-11-06,26.1322,-107.7764
+United States,Los Angeles,Sophie Villages Plaza,Fraud,2023-02-25,-15.7275,-164.0216
+United States,San Diego,McLaughlin Burg Underpass,Fraud,2023-10-23,-22.8328,-98.7141
+United States,Chicago,Bettye Ways Causeway,Vandalism,2023-05-13,-43.5731,-93.7838
+United States,Austin,Purdy Court Stravenue,Burglary,2023-01-22,-54.2097,99.4637
+United States,Miami,Boyer Junction Stream,Vandalism,2023-05-08,-39.9416,40.5599
+United States,Dallas,Angelita Port Lane,Assault,2023-05-07,-65.0969,-104.0324
+United States,Austin,Bernie Village Road,Burglary,2023-05-28,56.0322,56.0265
+United States,New York City,Garfield Garden Crossroad,Burglary,2023-11-25,66.9874,-178.0997
+United States,Los Angeles,Ted Port Burgs,Assault,2023-05-03,23.8019,141.9554
+United States,San Diego,Hoeger Ridge Dale,Fraud,2023-06-22,-50.9493,-11.0444
+United States,Los Angeles,Dominique Centers Island,Theft,2023-04-30,58.4232,-82.3542
+United States,New York City,Bergnaum Throughway Island,Burglary,2023-09-09,36.7033,83.1291
+United States,Los Angeles,Kyleigh Track Station,Vandalism,2023-10-25,-58.0414,101.2589
+United States,San Antonio,Colt Station Square,Fraud,2023-11-21,-39.6512,174.6246
+United States,Chicago,Labadie Gateway Cliffs,Assault,2023-01-28,24.2698,129.4712
+United States,Philadelphia,Pascale Key Walks,Fraud,2023-07-07,24.8381,-21.5181
+United States,Philadelphia,Hassie Crossroad Spring,Assault,2023-07-13,67.6250,-95.0657
+United States,Los Angeles,Bergstrom Park Port,Assault,2023-09-17,45.7725,-95.9630
+United States,Philadelphia,Bernadine Fall Isle,Assault,2023-05-08,-28.4409,150.6441
+United States,Dallas,Edgardo Well Trace,Fraud,2023-11-16,80.7764,124.0348
+United States,San Antonio,Hills Mountain Shoal,Vandalism,2023-07-15,-89.9002,-173.7399
+United States,New York City,Dereck Skyway Island,Fraud,2023-07-26,-60.0718,151.8207
+United States,Philadelphia,Kulas Square Forge,Assault,2023-03-29,-51.0012,66.1673
+United States,Miami,Kessler Squares Junctions,Burglary,2023-02-15,6.0396,51.2187
+United States,Philadelphia,Ethelyn Crossing Landing,Vandalism,2023-04-17,-79.2251,-124.3228
+United States,San Antonio,Schuster Ports Drive,Burglary,2023-07-30,46.4514,-116.1751
+United States,San Antonio,Hickle Crossing Crescent,Fraud,2023-04-07,41.1360,-20.8011
+United States,Los Angeles,Baumbach Fork Square,Burglary,2023-02-04,-16.5413,82.8206
+United States,Miami,Lebsack Plains Plaza,Assault,2023-03-22,62.2001,-111.8984
+United States,Miami,Towne Wall Oval,Assault,2023-10-17,31.7443,21.6334
+United States,Dallas,Stanford Village Glen,Assault,2023-07-20,-14.4270,18.9383
+United States,San Antonio,Kathryne Hollow River,Vandalism,2023-11-11,58.1659,7.3790
+United States,San Antonio,Ernie Gardens Corners,Burglary,2023-12-25,89.5059,-151.2018
+United States,New York City,Tess Unions Avenue,Theft,2023-04-29,-39.6150,-7.3600
+United States,Los Angeles,Hammes Streets Garden,Fraud,2023-03-22,-45.8985,-177.3356
+United States,Philadelphia,Schneider Center Islands,Vandalism,2023-07-29,21.1576,-146.4418
+United States,New York City,Bartoletti Curve Circle,Theft,2023-05-23,-58.7977,-176.6117
+United States,Dallas,Danyka Street Lane,Vandalism,2023-07-01,-59.4707,21.6920
+United States,Chicago,Streich Courts Mountain,Burglary,2023-06-19,-21.9516,108.9295
+United States,Miami,Nova Lodge Inlet,Vandalism,2023-03-13,26.7688,-116.6968
+United States,New York City,Erick Oval Route,Assault,2023-03-09,44.5395,-81.4983
+United States,Miami,Torp Hills Prairie,Assault,2023-04-27,77.7959,-37.3284
+United States,Dallas,Towne Ville Land,Assault,2023-12-20,66.9294,-119.3204
+United States,Dallas,Kautzer Fields Court,Theft,2023-10-20,-17.1633,-171.0708
+United States,Los Angeles,Maggio Walk Forges,Vandalism,2023-03-28,-86.9259,-94.4738
+United States,Chicago,Mathew Lake Mountain,Burglary,2023-03-19,14.3684,-173.3705
+United States,Chicago,Danyka Stream Place,Vandalism,2023-04-19,0.5551,167.3196
+United States,Los Angeles,Casimer Burg Mission,Assault,2023-03-18,-71.2481,-138.9421
+United States,Miami,Tiana Valley Fields,Vandalism,2023-11-05,-85.9268,-149.5453
+United States,Dallas,Gislason Forks Circles,Fraud,2023-06-06,-68.8317,-123.4183
+United States,San Antonio,Upton Curve Rapid,Theft,2023-10-12,-83.6712,72.8440
+United States,New York City,Pacocha Way Lake,Theft,2023-01-24,48.6183,-57.1320
+United States,Austin,Ivah Road Walk,Fraud,2023-01-05,7.0804,150.8223
+United States,Miami,Malachi Plains Well,Vandalism,2023-04-28,-28.6200,-176.7783
+United States,Los Angeles,Greta Land Springs,Fraud,2023-01-16,-26.3148,-77.9606
+United States,Houston,Orrin Burg Keys,Vandalism,2023-07-17,-49.3319,162.0507
+United States,Dallas,Stroman Circles Loaf,Theft,2023-11-02,25.6137,-56.2447
+United States,San Diego,Rohan Creek Cove,Assault,2023-06-08,85.3624,-46.3046
+United States,San Antonio,Ondricka Ramp Place,Vandalism,2023-01-23,54.5452,137.8112
+United States,Dallas,Jacobson Dale Hollow,Fraud,2023-02-10,-39.8220,-46.5920
+United States,Chicago,Johnston Light Forest,Assault,2023-06-13,-59.0905,121.6243
+United States,Los Angeles,Obie Street Rapids,Vandalism,2023-05-18,-29.9988,71.1164
+United States,Austin,Trever Forks Passage,Vandalism,2023-01-11,-10.7816,72.5675
+United States,Chicago,Marie Pass Circles,Theft,2023-12-15,-7.5003,-0.5373
+United States,New York City,Hirthe Bypass Isle,Vandalism,2023-09-27,28.2859,-153.2552
+United States,Miami,Welch Ways Cove,Fraud,2023-08-04,-5.3050,54.3891
+United States,New York City,Abigayle Loaf Parkways,Vandalism,2023-11-04,-26.9796,178.2166
+United States,San Antonio,Bartell Freeway Trace,Theft,2023-03-20,30.8394,165.0112
+United States,Los Angeles,Samanta Dam Turnpike,Burglary,2023-04-18,-45.7006,-168.3606
+United States,Miami,Wava Via Courts,Fraud,2023-08-19,-81.8168,156.7877
+United States,Houston,Donnelly Villages Gateway,Fraud,2023-01-09,-52.3939,-30.2493
+United States,New York City,Hessel Crossroad Harbor,Assault,2023-04-27,52.1954,153.0508
+United States,San Antonio,Augusta Burgs Bypass,Assault,2023-12-06,6.0170,137.6664
+United States,Chicago,Beer Rest Crest,Assault,2023-10-28,52.1548,-54.5998
+United States,New York City,Hank Groves Fork,Assault,2023-02-10,46.8291,-63.7941
+United States,Los Angeles,Barton Extension Road,Theft,2023-01-18,43.3789,151.5696
+United States,San Antonio,Francisco Circles Extensions,Fraud,2023-01-25,-45.6069,138.8733
+United States,Dallas,Nathanael Shoal Union,Fraud,2023-10-27,79.3516,62.4244
+United States,Philadelphia,Haag Loaf Mountain,Fraud,2023-12-04,-41.8321,-127.6574
+United States,Philadelphia,Dibbert Course Hill,Assault,2023-06-09,-48.0413,153.5710
+United States,New York City,Prohaska Forge Via,Fraud,2023-07-20,76.1713,153.9817
+United States,New York City,Cummings Fork Avenue,Fraud,2023-06-22,40.8389,157.5119
+United States,San Antonio,Conner Heights Summit,Vandalism,2023-04-28,30.0996,164.7303
+United States,Chicago,Hammes Course Overpass,Vandalism,2023-11-17,-47.7634,-132.0538
+United States,Dallas,Pouros Pass Pine,Fraud,2023-07-02,44.7659,175.3264
+United States,Los Angeles,Greyson Glens Unions,Theft,2023-05-26,-19.7407,34.5668
+United States,Los Angeles,Amaya Fields Plains,Assault,2023-07-15,-41.9598,179.4555
+United States,San Antonio,Emmalee Extensions Club,Vandalism,2023-03-08,-38.3768,-111.7961
+United States,Chicago,Aletha Summit Ridges,Burglary,2023-01-27,79.2085,123.7373
+United States,New York City,Carmine Orchard Motorway,Theft,2023-02-06,55.6139,153.9045
+United States,San Antonio,Sebastian Mountain Mall,Assault,2023-12-28,71.8869,-42.8696
+United States,Philadelphia,Beer Squares Mission,Vandalism,2023-12-20,6.0311,169.0938
+United States,Chicago,Halvorson Lake Oval,Assault,2023-09-24,82.0613,140.1141
+United States,Philadelphia,Schaefer Ferry Parkway,Burglary,2023-04-15,86.3428,122.2512
+United States,New York City,Chauncey Corner Trace,Vandalism,2023-05-14,-15.8533,-91.6182
+United States,San Antonio,Jarrell Knoll Crest,Burglary,2023-11-12,-22.2396,161.4232
+United States,Los Angeles,Metz Shoals Mountains,Assault,2023-06-14,24.0214,-159.4451
+United States,San Antonio,Stehr Crossroad Villages,Burglary,2023-04-13,-38.6850,144.0396
