@@ -210,15 +210,17 @@ const express = require('express');
 const axios = require('axios');
 const csv = require('csv-parser');
 const fs = require('fs');
+const morgan = require('morgan');
 const geolib = require('geolib');
 const { TwitterApi } = require('twitter-api-v2'); // Import Twitter API library
-require('dotenv').config();
+require('dotenv').config({path: "./config.env"});
 
 const app = express();
 const port = 3050;
 
 app.set('view engine', 'ejs'); // Serve static files from the public directory
 // To parse JSON data
+app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.static('public')); // Serve static files from the public directory
 
@@ -420,6 +422,8 @@ async function checkCrime(lat, lon) {
 async function geocodeLocation(locationName) {
   const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(locationName)}&format=json&limit=1`;
   
+  console.log(url)
+
   try {
       const response = await axios.get(url);
       if (response.data && response.data.length > 0) {
@@ -435,6 +439,10 @@ async function geocodeLocation(locationName) {
 
 app.get('/map', (req, res) => {
   res.render('map')
+})
+
+app.get('/test', (req, res) => {
+  res.render('test')
 })
 
 app.get('/', (req, res) => {
@@ -453,6 +461,9 @@ app.post('/assess', async (req, res) => {
           lat = coords.latitude;
           lon = coords.longitude;
       }
+
+      console.log(locationName)
+      console.log(lat, lon)
 
       const weather = await getWeather(lat, lon);
       const socialMedia = await getSocialMediaData('crime OR danger OR safety', lat, lon);

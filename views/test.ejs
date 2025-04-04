@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Search and Map</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        .container {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Find Locations Near Me</h1>
+        <div class="form-group">
+            <label for="locationInput">Enter a location name (e.g. "Portharcourt"):</label>
+            <input type="text" id="locationInput" class="form-control" placeholder="Enter location name">
+        </div>
+        <div class="form-group">
+            <label for="locationDropdown">Select a location:</label>
+            <select id="locationDropdown" class="form-control" disabled>
+                <option value="">No locations found</option>
+            </select>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([6.431, 3.416], 13); // Default to Portharcourt
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        let currentMarker;
+        let locationMarkers = [];
+
+        // Get the user's current location
+        function getCurrentLocation() {
+            return new Promise((resolve, reject) => {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(resolve, reject);
+                } else {
+                    reject(new Error("Geolocation is not supported by this browser."));
+                }
+            });
+        }
+
+        // Fetch nearby locations based on location name
+        async function getNearbyLocations(locationName) {
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(locationName)}&limit=1000`);
+            const data = await response.json();
+
+            return data;
+        }
+
+        // Update the dropdown with the nearby locations
+        function updateLocationDropdown(locations) {
+            const dropdown = document.getElementById('locationDropdown');
+            dropdown.innerHTML = '';
+
+            if (locations.length > 0) {
+                locations.forEach(location => {
+                    const option = document.createElement('option');
+                    option.value = `${location.lat},${location.lon}`;
+                    option.textContent = location.display_name;
+                    dropdown.appendChild(option);
+                });
+                dropdown.disabled = false;
+            } else {
+                const option = document.createElement('option');
+                option.value = "";
+                option.textContent = "No locations found";
+                dropdown.appendChild(option);
+                dropdown.disabled = true;
+            }
+        }
+
+        // Clear previous location markers
+        function clearMarkers() {
+            locationMarkers.forEach(marker => {
+                map.removeLayer(marker);
+            });
+            locationMarkers = [];
+        }
+
+        // Add a marker for a selected location
+        function addMarker(lat, lon, title) {
+            const marker = L.marker([lat, lon]).addTo(map).bindPopup(title);
+            locationMarkers.push(marker);
+        }
+
+        // Event listener for location input change
+        document.getElementById('locationInput').addEventListener('input', async function () {
+            const locationName = this.value;
+            if (locationName) {
+                const locations = await getNearbyLocations(locationName);
+                updateLocationDropdown(locations);
+                clearMarkers(); // Clear previous markers
+            } else {
+                updateLocationDropdown([]);
+                clearMarkers();
+            }
+        });
+
+        // Event listener for location dropdown selection
+        document.getElementById('locationDropdown').addEventListener('change', function () {
+            const selectedLocation = this.value.split(',');
+            const lat = parseFloat(selectedLocation[0]);
+            const lon = parseFloat(selectedLocation[1]);
+
+            // Update the map to show the selected location
+            map.setView([lat, lon], 14);
+            clearMarkers(); // Clear previous markers
+            addMarker(lat, lon, `Selected Location: ${this.options[this.selectedIndex].text}`);
+        });
+
+        // Initialize the map and load current location on page load
+        window.onload = async function () {
+            try {
+                const position = await getCurrentLocation();
+                const lat = position.coords.latitude;
+                const lon = position.coords.longitude;
+
+                // Set map view to user's current location
+                map.setView([lat, lon], 14);
+
+                // Add a marker for current location
+                L.marker([lat, lon]).addTo(map).bindPopup("Your Current Location").openPopup();
+            } catch (error) {
+                console.error('Error getting location:', error);
+            }
+        };
+    </script>
+</body>
+</html>
