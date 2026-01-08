@@ -438,22 +438,39 @@ async function geocodeLocation(locationName) {
 }
 
 async function reverseGeocodeLocation(lat, lon) {
-  const url = `https://nominatim.openstreetmap.org/reverse?format=geojson&lat=${lat}&lon=${lon}&layer=address`;
-  
-  console.log(url)
+  // Nominatim reverse geocoding endpoint
+  const url = 'https://nominatim.openstreetmap.org/reverse';
 
   try {
-      const response = await axios.get(url);
+    const response = await axios.get(url, {
+      params: {
+        lat,
+        lon,
+        format: 'json',
+        addressdetails: 1
+      },
+      headers: {
+        // REQUIRED by Nominatim usage policy
+        'User-Agent': 'MyReverseGeocoder/1.0 (your_email@example.com)',
+        'Accept-Language': 'en'
+      },
+      timeout: 5000
+    });
 
-    console.log(response.data)
-    return response.data
-    
+    if (!response.data || !response.data.display_name) {
       throw new Error('Location not found');
+    }
+
+    console.log('Full Address:', response.data.display_name);
+    console.log('Address Components:', response.data.address);
+
+    return response.data;
   } catch (error) {
-      console.error('Error geocoding location:', error);
-      throw new Error('Geocoding failed');
+    console.error('Error geocoding location:', error?.message || error);
+    throw new Error('Geocoding failed');
   }
 }
+
 
 app.get('/map', (req, res) => {
   res.render('map')
@@ -524,5 +541,6 @@ app.post('/assess', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
 
 
