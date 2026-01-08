@@ -438,7 +438,7 @@ async function geocodeLocation(locationName) {
 }
 
 async function reverseGeocodeLocation(lat, lon) {
-  const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+  const url = `https://nominatim.openstreetmap.org/reverse?format=geojson&lat=${lat}&lon=${lon}&layer=address`;
   
   console.log(url)
 
@@ -524,4 +524,5 @@ app.post('/assess', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
 
