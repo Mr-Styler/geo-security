@@ -451,7 +451,7 @@ async function reverseGeocodeLocation(lat, lon) {
       },
       headers: {
         // REQUIRED by Nominatim usage policy
-        'User-Agent': 'MyReverseGeocoder/1.0 (your_email@example.com)',
+        'User-Agent': 'MyReverseGeocoder/1.0 (dregskylar@gmail.com)',
         'Accept-Language': 'en'
       },
       timeout: 5000
@@ -541,6 +541,7 @@ app.post('/assess', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
 
 
 
