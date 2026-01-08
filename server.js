@@ -437,6 +437,24 @@ async function geocodeLocation(locationName) {
   }
 }
 
+async function reverseGeocodeLocation(lat, lon) {
+  const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+  
+  console.log(url)
+
+  try {
+      const response = await axios.get(url);
+
+    console.log(response.data)
+    return response.data
+    
+      throw new Error('Location not found');
+  } catch (error) {
+      console.error('Error geocoding location:', error);
+      throw new Error('Geocoding failed');
+  }
+}
+
 app.get('/map', (req, res) => {
   res.render('map')
 })
@@ -464,6 +482,7 @@ app.post('/assess', async (req, res) => {
 
       console.log(locationName)
       console.log(lat, lon)
+    await reverseGeocodeLocation(lat, lon)
 
       const weather = await getWeather(lat, lon);
       const socialMedia = await getSocialMediaData('crime OR danger OR safety', lat, lon);
@@ -505,3 +524,4 @@ app.post('/assess', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
